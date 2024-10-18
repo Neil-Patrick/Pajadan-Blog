@@ -1,0 +1,96 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background: #333;
+    color: #fff;
+    padding: 10px 30px;
+    position: static;
+    top: 0px;
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+main {
+    padding: 0px;
+}
+
+#blog-posts {
+    margin-bottom: 20px;
+    padding: 20px;
+}
+
+article {
+    background: #fff;
+    padding: 15px;
+    margin-bottom: 10px;
+    border-width: 3px;
+    border-radius: 5px;
+    border-style: solid;
+    border-color: black;
+    overflow-x: auto;
+    box-sizing: border-box;
+}
+
+#new-post {
+    background: #5a3d3d;
+    color: #fff;
+    padding: 10px 30px;
+}
+
+form {
+    display: flex;
+    flex-direction: column; 
+}
+
+form label {
+    margin: 5px 0;
+}
+
+form input, form textarea {
+    padding: 5px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+form button {
+    font-size: x-small;
+    padding: 15px;
+    max-width: fit-content;
+    max-height: fit-content;
+    margin-bottom: 60px;
+    border-radius: 0px;
+}
+
+footer {
+    text-align: center;
+    padding: 1px;
+    background: #333;
+    color: #fff;
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+}
